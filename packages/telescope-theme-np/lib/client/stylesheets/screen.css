@@ -1,0 +1,26 @@
+body {
+  background: #fafafa;
+}
+
+.logo-image img {
+  width: 55%;
+  height: auto;
+  display: block;
+  margin: 22px auto;
+}
+
+.search.empty .search-field {
+  border: 1px solid #e0e0e0;
+}
+
+.post-share>a:hover, .post-share>a:hover .action, .post-discuss>a:hover, .post-discuss>a:hover .action {
+  color: #444;
+}
+
+.post-share>a.share-link {
+  color: #BFD9FF;
+}
+
+.post-discuss>a.discuss-link {
+  color: #B2DC80;
+}
