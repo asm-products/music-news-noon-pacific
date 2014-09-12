@@ -2,16 +2,26 @@ body {
   background: #fafafa;
 }
 
+.header {
+  height: 70px;
+}
+
 .logo-image img {
   width: 55%;
   height: auto;
   display: block;
-  margin: 22px auto;
+  margin: 18px auto;
 }
 
 .search.empty .search-field {
   border: 1px solid #e0e0e0;
 }
+
+.search .search-field {
+  border-radius: 8px;
+  width: 150px;
+}
+
 
 .post-share>a:hover, .post-share>a:hover .action, .post-discuss>a:hover, .post-discuss>a:hover .action {
   color: #444;
@@ -23,4 +33,36 @@ body {
 
 .post-discuss>a.discuss-link {
   color: #B2DC80;
+}
+
+a#submit {
+  border: 1px solid #ff0000;
+  color: #ff0000;
+  background: transparent;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+a#submit:hover {
+  color: #fff;
+  background: #ff0000;
+}
+
+.more-button {
+  width: 20%;
+  background: transparent;
+  border: 1px solid #ff0000;
+  border-radius: 5px;
+  margin: 40px auto;
+  height: 50px;
+  line-height: 50px;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+.more-button:hover {
+  background: #ff0000;
+  color: #fff;
 }
