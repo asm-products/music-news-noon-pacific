@@ -1,6 +1,11 @@
 body {
-  background: #fafafa;
+  background: #fff;
 }
+
+.post-title:hover {
+  color: #ff000;
+}
+
 
 .header {
   height: 70px;
@@ -22,6 +27,17 @@ body {
   width: 150px;
 }
 
+.has-shadow, .single-post .posts .post, .posts-wrapper, .post-body {
+  box-shadow: none;
+}
+
+.posts {
+  border: none;
+}
+
+.post {
+  border-bottom: 1px solid #eee;
+}
 
 .post-share>a:hover, .post-share>a:hover .action, .post-discuss>a:hover, .post-discuss>a:hover .action {
   color: #444;
