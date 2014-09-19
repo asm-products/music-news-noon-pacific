@@ -9,6 +9,17 @@ body {
 
 .header {
   height: 70px;
+  color: #666;
+  background-color: #fff;
+}
+
+.header a {
+  color: #666 !important;
+  font-weight: normal !important;
+}
+
+.header a:hover {
+  color: #000 !important;
 }
 
 .logo-image img {
@@ -44,16 +55,30 @@ body {
 }
 
 .post-share>a.share-link {
-  color: #BFD9FF;
+  color: #cecece;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.post-share>a.share-link:hover {
+  color: #ff0000;
 }
 
 .post-discuss>a.discuss-link {
-  color: #B2DC80;
+  color: #cecece;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.post-discuss>a.discuss-link:hover {
+  color: #ff0000;
 }
 
 a#submit {
-  border: 1px solid #ff0000;
-  color: #ff0000;
+  border: 1px solid #ff0000 ;
+  color: #ff0000 !important;
   background: transparent;
   -moz-transition: all .5s;
   -o-transition: all .5s;
@@ -61,12 +86,12 @@ a#submit {
 }
 
 a#submit:hover {
-  color: #fff;
+  color: #fff !important;
   background: #ff0000;
 }
 
 .more-button {
-  width: 20%;
+  width: 30%;
   background: transparent;
   border: 1px solid #ff0000;
   border-radius: 5px;
@@ -81,4 +106,15 @@ a#submit:hover {
 .more-button:hover {
   background: #ff0000;
   color: #fff;
+}
+
+.alert.alert-danger {
+  color: red;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid;
+}
+
+a.account-link.sign-in {
+  margin-right: 20px;
 }
