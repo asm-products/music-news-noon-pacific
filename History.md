@@ -1,4 +1,22 @@
+## v0.9.5 “FixScope”
+
+* Fixed `/settings` bug (thanks @steffenstraetz!).
+* Code cleanup (thanks @wulfmeister!).
+* Fixed upvote/downvote concurrency bug (thanks @spifd!).
+* Renamed `SubmitServerCallbacks` to `SubmitMethodCallbacks` for posts and comments.
+* Added `AfterSubmitMethodCallbacks` for posts and comments.
+* Made notifications into their own `telescope-notifications` package.
+* `telescope-update-prompt` package now sends user, post, and comment count when phoning home.
+
+## v0.9.4 “UpdateScope”
+
 * Removed unneeded allow insert on Posts and Comments. 
+* Renaming `postMeta` template to `postInfo` to avoid ambiguity.
+* Fixing avatar code.
+* Adding update prompt package.
+* Upgrading to Meteor 0.9.2.
+* Do not remove deleted comments from database, use `isDeleted` flag instead.
+* Now showing "X new posts" instead of just displaying them. Thanks @dburles!
 
 ## v0.9.3 “DailyScope”
 

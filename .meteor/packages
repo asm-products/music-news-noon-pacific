@@ -1,3 +1,18 @@
+Skip to content
+ This repository
+Explore
+Gist
+Blog
+Help
+Clark Dinnison cdinnison
+ 
+133  Unwatch 
+  Unstar 1,924
+ Fork 695TelescopeJS/Telescope
+ tag: v0.9.5  Telescope / .meteor / packages
+Sacha GreifSachaG 4 days ago Making notifications into their own package
+10 contributors Sacha GreifTom ColemanThomas BreletTroy GoodeJulien ChaumondArunoda SusiripalaPhilip NuzhnyiElouafiq AliLyudmil AngelovLance Ennen
+71 lines (55 sloc)  1.163 kb RawBlameHistory  
 # Meteor packages used by this project, one per line.
 #
 # 'meteor add' and 'meteor remove' will edit this file for you,
@@ -65,5 +80,7 @@ npm-container
 matb33:collection-hooks
 djedi:sanitize-html
 rajit:bootstrap3-datepicker
-telescope-theme-np
+telescope-update-prompt
+telescope-notifications
 
+Status API Training Shop Blog About © 2014 GitHub, Inc. Terms Privacy Security Contact 
