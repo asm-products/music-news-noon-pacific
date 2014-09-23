@@ -107,6 +107,7 @@ telescope-search@0.0.0
 telescope-tags@0.0.0
 telescope-theme-base@0.0.0
 telescope-theme-hubble@0.0.0
+telescope-theme-np@0.0.0
 telescope-update-prompt@0.1.0
 templating@1.0.6
 tmeasday:crypto-base@3.1.2
