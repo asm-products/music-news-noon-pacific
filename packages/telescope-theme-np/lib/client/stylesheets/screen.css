@@ -2,8 +2,18 @@ body {
   background: #fff;
 }
 
+a:hover {
+  color: #E72D2D;
+}
+
+.post-title {
+  -moz-transition: all .1s;
+  -o-transition: all .1s;
+  transition: all .1s;
+}
+
 .post-title:hover {
-  color: #ff000;
+  color: #E72D2D;
 }
 
 
@@ -62,7 +72,7 @@ body {
 }
 
 .post-share>a.share-link:hover {
-  color: #ff0000;
+  color: #E72D2D;
 }
 
 .post-discuss>a.discuss-link {
@@ -73,12 +83,22 @@ body {
 }
 
 .post-discuss>a.discuss-link:hover {
-  color: #ff0000;
+  color: #E72D2D;
+}
+
+.post-meta a{
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.post-meta a:hover {
+  color: #000;
 }
 
 a#submit {
-  border: 1px solid #ff0000 ;
-  color: #ff0000 !important;
+  border: 1px solid #E72D2D ;
+  color: #E72D2D !important;
   background: transparent;
   -moz-transition: all .5s;
   -o-transition: all .5s;
@@ -87,13 +107,13 @@ a#submit {
 
 a#submit:hover {
   color: #fff !important;
-  background: #ff0000;
+  background: #E72D2D;
 }
 
 .more-button {
   width: 30%;
   background: transparent;
-  border: 1px solid #ff0000;
+  border: 1px solid #444;
   border-radius: 5px;
   margin: 40px auto;
   height: 50px;
@@ -104,8 +124,12 @@ a#submit:hover {
 }
 
 .more-button:hover {
-  background: #ff0000;
-  color: #fff;
+  border-color: #E72D2D;
+  background: transparent;
+}
+
+.more-button span {
+  font-weight: normal;
 }
 
 .alert.alert-danger {
@@ -117,4 +141,8 @@ a#submit:hover {
 
 a.account-link.sign-in {
   margin-right: 20px;
+}
+
+.spinner-container {
+  margin-top: 150px;
 }
