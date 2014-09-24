@@ -146,3 +146,23 @@ a.account-link.sign-in {
 .spinner-container {
   margin-top: 150px;
 }
+
+.mobile-nav-open .mobile-nav {
+  background: #fafafa;
+}
+
+.mobile-menu a, .mobile-menu a:link, .mobile-menu a:visited {
+  color: #333;
+}
+
+.mobile-menu .dropdown-menu {
+  background: #fafafa;
+  color: #333;
+  -moz-box-shadow: inset -3px 0px 7px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset -3px 0px 7px rgba(0, 0, 0, 0.5);
+  box-shadow: inset -3px 0px 7px rgba(0, 0, 0, 0.5);
+}
+
+.mobile-menu .dropdown-menu li {
+  padding-left: 30px;
+}
