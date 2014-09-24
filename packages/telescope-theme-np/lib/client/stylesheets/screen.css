@@ -170,3 +170,12 @@ a.account-link.sign-in {
 .mobile-menu .sign-in, .mobile-menu .sign-up {
   padding: 10px;
 }
+
+.mobile-menu-button .hamburger {
+  fill: #E72D2D;
+}
+
+a.mobile-only.mobile-menu-button.button {
+  border: 1px solid #e7202d;
+  background: #fff;
+}
