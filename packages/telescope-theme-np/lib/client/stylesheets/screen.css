@@ -166,3 +166,7 @@ a.account-link.sign-in {
 .mobile-menu .dropdown-menu li {
   padding-left: 30px;
 }
+
+.mobile-menu .sign-in, .mobile-menu .sign-up {
+  padding: 10px;
+}
