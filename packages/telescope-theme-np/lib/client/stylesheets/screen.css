@@ -179,3 +179,25 @@ a.mobile-only.mobile-menu-button.button {
   border: 1px solid #e7202d;
   background: #fff;
 }
+
+.notifications-menu .dropdown-menu {
+  width: 300px;
+}
+
+a.button.mark-as-read {
+  color: #fff !important;
+}
+
+span.notification-timestamp {
+  color: #999;
+}
+
+.error {
+  background: #fff;
+  border: 1px solid #E72D2D;
+  color: #E72D2D;
+}
+ 
+.posts-day-heading, .empty-day-notice {
+  text-align: center;
+}
