@@ -1,0 +1,27 @@
+{
+  "dependencies": [
+    [
+      "cmather:handlebars-server",
+      "0.2.0"
+    ],
+    [
+      "handlebars",
+      "1.0.0"
+    ],
+    [
+      "meteor",
+      "1.1.0"
+    ],
+    [
+      "telescope-email",
+      "0.2.9"
+    ],
+    [
+      "underscore",
+      "1.0.0"
+    ]
+  ],
+  "pluginDependencies": [],
+  "toolVersion": "meteor-tool@1.0.31",
+  "format": "1.0"
+}
