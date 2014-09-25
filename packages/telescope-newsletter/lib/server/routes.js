@@ -8,7 +8,7 @@ Meteor.startup(function () {
       path: '/email/campaign',
       action: function() {
         var campaign = buildCampaign(getCampaignPosts(getSetting('postsPerNewsletter', 5)));
-        var campaignSubject = '<div class="campaign-subject"><strong>Subject:</strong> '+'Today&#39;s Music News'+'</div>';
+        var campaignSubject = '<div class="campaign-subject"><strong>Subject:</strong> '+'Music News Daily'+'</div>';
         var campaignSchedule = '<div class="campaign-schedule"><strong>Scheduled for:</strong> '+getNextCampaignSchedule()+'</div>';
 
         this.response.write(campaignSubject+campaignSchedule+campaign.html);
