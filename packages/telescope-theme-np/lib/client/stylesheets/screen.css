@@ -197,3 +197,7 @@ span.notification-timestamp {
   border: 1px solid #E72D2D;
   color: #E72D2D;
 }
+ 
+.posts-day-heading, .empty-day-notice {
+  text-align: center;
+}
