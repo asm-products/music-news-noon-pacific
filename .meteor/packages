@@ -10,10 +10,8 @@ backbone
 accounts-base
 accounts-ui
 accounts-password
-accounts-twitter
 spiderable
 email
-accounts-facebook
 
 # Atmosphere Packages
 

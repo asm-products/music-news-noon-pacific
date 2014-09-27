@@ -1,0 +1,23 @@
+{
+  "format": "unipackage-pre2",
+  "name": "telescope-kadira",
+  "summary": "Telescope Kadira package",
+  "version": "0.1.0+57317ef8567b81825bc786bb7983ee1100825fc0",
+  "earliestCompatibleVersion": "0.0.0",
+  "isTest": false,
+  "unibuilds": [
+    {
+      "arch": "os",
+      "path": "os.json"
+    },
+    {
+      "arch": "web.browser",
+      "path": "web.browser.json"
+    },
+    {
+      "arch": "web.cordova",
+      "path": "web.cordova.json"
+    }
+  ],
+  "plugins": []
+}

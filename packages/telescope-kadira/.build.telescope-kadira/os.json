@@ -1,0 +1,28 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "telescope-lib"
+    },
+    {
+      "package": "telescope-base"
+    },
+    {
+      "package": "meteorhacks:kadira"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/telescope-kadira.js",
+      "length": 3206,
+      "offset": 0,
+      "servePath": "/packages/telescope-kadira.js",
+      "sourceMap": "os/packages/telescope-kadira.js.map"
+    }
+  ]
+}
