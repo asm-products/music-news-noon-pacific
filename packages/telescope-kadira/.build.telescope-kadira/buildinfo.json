@@ -1,0 +1,42 @@
+{
+  "builtBy": "meteor/13",
+  "buildDependencies": {
+    "os.json": {
+      "files": {
+        "/Users/clark/sites/Telescope/packages/telescope-kadira/package.js": "def9ac6ce607a71880ea86cbcd07d10b213a4e18",
+        "/Users/clark/sites/Telescope/packages/telescope-kadira/lib/kadira-settings.js": "498d0349d92b2903a4ffbc831d190621a46142da",
+        "/Users/clark/sites/Telescope/packages/telescope-kadira/lib/server/kadira.js": "a48acc61a24991ba0a3c91e6755af1285e211289"
+      },
+      "directories": []
+    },
+    "web.browser.json": {
+      "files": {
+        "/Users/clark/sites/Telescope/packages/telescope-kadira/package.js": "def9ac6ce607a71880ea86cbcd07d10b213a4e18",
+        "/Users/clark/sites/Telescope/packages/telescope-kadira/lib/kadira-settings.js": "498d0349d92b2903a4ffbc831d190621a46142da"
+      },
+      "directories": []
+    },
+    "web.cordova.json": {
+      "files": {
+        "/Users/clark/sites/Telescope/packages/telescope-kadira/package.js": "def9ac6ce607a71880ea86cbcd07d10b213a4e18",
+        "/Users/clark/sites/Telescope/packages/telescope-kadira/lib/kadira-settings.js": "498d0349d92b2903a4ffbc831d190621a46142da"
+      },
+      "directories": []
+    }
+  },
+  "pluginDependencies": {
+    "files": {
+      "/Users/clark/sites/Telescope/packages/telescope-kadira/package.js": "def9ac6ce607a71880ea86cbcd07d10b213a4e18"
+    },
+    "directories": []
+  },
+  "source": "/Users/clark/sites/Telescope/packages/telescope-kadira",
+  "buildTimeDirectDependencies": {
+    "telescope-lib": "0.2.9+1066a0b0ffd4b3a4cdcf8fb7d6aa08704ffb84d8",
+    "meteorhacks:kadira": "2.9.2",
+    "meteor": "1.1.1",
+    "telescope-base": "0.0.0+1ab5d5000bd1d1c98b130ce7c411cfd5e83f0d51"
+  },
+  "buildTimePluginDependencies": {},
+  "cordovaDependencies": null
+}
