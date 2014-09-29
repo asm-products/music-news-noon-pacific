@@ -16,7 +16,7 @@
     {
       "type": "prelink",
       "file": "web.cordova/packages/telescope-kadira.js",
-      "length": 1952,
+      "length": 2402,
       "offset": 0,
       "servePath": "/packages/telescope-kadira.js",
       "sourceMap": "web.cordova/packages/telescope-kadira.js.map"

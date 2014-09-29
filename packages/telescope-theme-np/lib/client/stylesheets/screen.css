@@ -16,6 +16,11 @@ a:hover {
   color: #E72D2D;
 }
 
+.at-error {
+  color: #ff0000;
+  padding: 5px;
+  border: 1px solid #ff0000;
+}
 
 .header {
   height: 70px;

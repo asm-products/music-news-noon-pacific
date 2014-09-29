@@ -8,7 +8,6 @@
 standard-app-packages
 backbone
 accounts-base
-accounts-ui
 accounts-password
 spiderable
 email
@@ -36,10 +35,6 @@ sacha:spin@2.0.4
 sacha:juice
 chuangbo:marked@0.3.3
 percolatestudio:synced-cron@0.1.1
-joshowens:accounts-entry@0.9.0
-
-# Atmosphere Packages (Old)
-
 
 # Telescope Packages
 
@@ -57,6 +52,9 @@ telescope-newsletter
 telescope-module-embedly
 telescope-i18n
 telescope-email
+telescope-update-prompt
+telescope-notifications
+telescope-kadira
 
 
 npm-container
@@ -66,3 +64,9 @@ rajit:bootstrap3-datepicker
 telescope-update-prompt
 telescope-notifications
 telescope-theme-np
+telescope-kadira
+
+# Accounts Templates
+service-configuration
+accounts-ui
+splendido:accounts-templates-unstyled
