@@ -2,7 +2,7 @@
   "format": "unipackage-pre2",
   "name": "telescope-kadira",
   "summary": "Telescope Kadira package",
-  "version": "0.1.0+57317ef8567b81825bc786bb7983ee1100825fc0",
+  "version": "0.1.0+ea6f84f8d9e948210da0882f44c3ad6b13e4deb2",
   "earliestCompatibleVersion": "0.0.0",
   "isTest": false,
   "unibuilds": [

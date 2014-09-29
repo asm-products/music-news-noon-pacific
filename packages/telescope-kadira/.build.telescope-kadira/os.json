@@ -19,7 +19,7 @@
     {
       "type": "prelink",
       "file": "os/packages/telescope-kadira.js",
-      "length": 3206,
+      "length": 3710,
       "offset": 0,
       "servePath": "/packages/telescope-kadira.js",
       "sourceMap": "os/packages/telescope-kadira.js.map"
